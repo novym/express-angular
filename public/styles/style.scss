@@ -1,0 +1,23 @@
+body {
+  background: #b9b9b9;
+  padding: 50px;
+  font: 16px Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.dad {
+  color: #444444;
+  .child {
+    color: #555500;
+    &.son{
+      color: #00B7FF;
+    }
+    &.daughter {
+      color: #dd00ae;
+    }
+  }
+}
