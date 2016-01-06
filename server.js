@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // setup public paths
-app.use(express.static(path.resolve(__dirname, 'build', 'public')));
+app.use(express.static(path.resolve(__dirname, 'public')));
 
 //===== Routes
 app.use('/', require('./routes/index.js'));
